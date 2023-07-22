@@ -1,0 +1,119 @@
+.course{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    
+}
+.AvailCourse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AvailCourse h1{
+    font-size: 25px;
+    border: solid black ;
+    padding: 8px 15px;
+}
+.courseBody{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* background-color: bisque; */
+}
+.Gen-Body{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    /* background-color: #5852FE; */
+}
+.head{
+    width: 100%;
+    height: 50px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #5852FE;
+    margin-left: 400px;
+    
+
+}
+.head h1{
+    font-size: 16px;
+    color: white;
+}
+.head button{
+    padding: 2px 5px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+} 
+.hello{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #5852FE;
+    transition: 0.5s ease-in;
+    margin-left: 400px;
+    padding: 0px 50px;
+
+
+
+}
+.hi{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5852FE;
+    transition: 0.5s ease-in;
+     margin-left: 400px;
+    padding: 0px 50px;
+   
+}
+.hello p, .hi p{
+    width: 100%;
+    color: #FFFFFF75;
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
