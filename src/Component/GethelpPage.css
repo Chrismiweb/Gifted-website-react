@@ -1,0 +1,105 @@
+.GetHelp{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;   
+}
+.GetHelpRight {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.Getheader{
+    width: 80%;
+    text-align: left;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Getheader h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.Getheader p{
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #00000078;
+}
+.GetInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+.GetInput, .GetMessage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.GetInput p, .GetMessage p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.GetInput input{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4235356b;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.GetMessage input{
+    width: 60%;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4235356b;
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+    justify-content: start;
+
+}
+.GetMessage button{
+    width: 10%;
+    padding: 10px 25px;   
+    border-radius: 10px; 
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #5852FE;
+    cursor: pointer;
+    
+}
+.Getheader button{
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    .Getheader button{
+        display: flex;
+        font-size: 20px;
+        border: none;
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+    .Getheader p{
+        width: 80%;
+    }
+    .GetInput input, .GetMessage input{
+        width: 90%;
+    }
+    .GetMessage button{
+        width: 30%;
+    }
+}

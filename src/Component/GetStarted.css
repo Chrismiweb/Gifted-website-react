@@ -45,3 +45,24 @@
     height: 450px;
 
 }
+
+@media screen and (max-width: 950px) {
+    .getStarted{
+        flex-direction: column;
+        height: 100%;
+    }
+    .text{
+        width: 70%;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+    .text a button{
+        width: 50%;
+    }
+    .dashboardImg img{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}

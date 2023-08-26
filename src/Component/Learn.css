@@ -1,6 +1,5 @@
 .learn{
     width: 100%;
-    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +10,8 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     
 }
 .learn-border {
@@ -46,4 +47,13 @@
 .learnIcon img{
     display: flex;
     height: 50px;
+}
+
+@media screen and (max-width:950px) {
+    .learnMap{
+        flex-direction: column;
+    }
+    .learn-border{
+        width: 70%;
+    }
 }

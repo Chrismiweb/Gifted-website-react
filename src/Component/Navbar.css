@@ -2,6 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+.navbar{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 nav{
     width: 100%;
     height: 80px;
@@ -24,6 +32,9 @@ nav{
     font-size: 18px;
     font-weight: bold;
 }
+.page a:hover{
+    color: #5852FE;
+}
 .page button{
     width: 100%;
     padding: 10px 25px;
@@ -33,5 +44,86 @@ nav{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.5s ease-in;
 
+
+}
+.page button:hover{
+    padding: 12px 30px;
+    transition: 0.5s ease-in;
+
+}
+
+.menuBar{
+    display: none;
+}
+
+.menu1, .menu2{
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    nav{
+        justify-content: space-around;
+    }
+    .page{
+        display: none;
+    }
+    .menuBar{
+        display: flex;
+    }
+    .menu1{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background-color:#5852FE;
+        transition: 1.5s ease-in;
+        gap: 5px;
+        
+    }
+  
+    .menu2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:#5852FE;
+        transition: 1.5s ease-in;
+        overflow: hidden;
+        height: 0px;
+    }
+    .menu1 a, .menu2 a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+   
+    .menu1 button,.menu2 button{
+        padding: 7px 15px;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        color: #5852FE;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .menuBar{
+        color: white;
+        background-color: #5852FE;
+        border: none;
+        font-size: 30px;
+        font-weight: bolder;
+        padding: 0px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 }

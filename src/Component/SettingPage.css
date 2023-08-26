@@ -1,0 +1,100 @@
+.SettingPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.SettingRightSide{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SettingTop{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 30px;
+}
+.SettingTop h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.SettingTop p{
+    color: #00000078;
+    font-size: 15px;
+}
+.SettingProfilePics{
+    margin-top: 30px;
+}
+.SettingProfilePics img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.SettingInput{
+    width:80% ;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.SettingUsername{
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+}
+.SettingUsername input{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4235356b;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.SettingUsername p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.Settingbtn{
+    width: 80%;
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-between;
+}
+.Settingbtn button{
+    padding: 10px 25px;   
+    border-radius: 10px; 
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #5852FE;
+    cursor: pointer;
+}
+.SettingTop button{
+    display: none;
+}
+
+@media screen and (max-width:950px) {
+    .SettingTop{
+        gap: 10px;
+    }
+    .SettingTop button{
+        display: flex;
+        font-size: 20px;
+        border: none;
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+   
+    .SettingUsername input{
+        width: 90%;
+    }
+    
+}

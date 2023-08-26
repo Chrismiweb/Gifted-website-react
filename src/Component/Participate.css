@@ -30,3 +30,14 @@
     width: 50%;
     
 }
+
+@media screen and (max-width:950px) {
+    .part-map{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+    }
+    .participate h1{
+        font-size: 22px;
+    }
+}

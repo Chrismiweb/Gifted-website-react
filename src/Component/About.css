@@ -5,7 +5,6 @@
 }
 .about {
     width: 100%;
-    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,4 +29,23 @@
 .aboutImg img{
     display: flex;
     height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .about{
+        flex-direction: column;
+    }
+    .aboutText{
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .aboutText p{
+        width: 90%;
+    }
+    
 }

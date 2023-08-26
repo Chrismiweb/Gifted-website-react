@@ -1,0 +1,149 @@
+.QuizPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+    
+
+}
+.QuizRight{
+    width: 100%;
+    height: 100vh;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.QuizTop{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Topright{
+    overflow: hidden;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Topright h1{
+    font-size: 18px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Topright p{
+    width: 80%;
+    font-size: 13px;
+    text-align: left;
+    color: #0000007D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.QuizSeeAll{
+    margin-right: 120px;
+    font-weight: bold;
+}
+.Quiztable{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* background-color: tan; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.Quizcourse{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.Quizcourse p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+.Quizline{
+    width: 80%;
+    height: 1px;
+    background-color: #0000008F;
+}
+.Quizbtn{
+    display: flex;
+    gap: 20px;
+}
+.moreinfo, .playnow{
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.moreinfo{
+    background-color: white;
+    border: 2px solid #5852FE;
+}
+.playnow{
+    background-color: #5852FE;
+    border: none;
+    color: white;
+}
+.QuizTop button{
+    display: none;
+}
+
+@media screen and (max-width: 950px) {
+    .QuizTop button{
+        display: flex;
+        border: none;
+        background-color: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .QuizTop{
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+    
+    .Topright{
+        width: 40%;
+        margin-left: 0px;
+    }
+    .Topright h1{
+        font-size: 14px;
+    }
+    .Topright p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .QuizSeeAll{
+        margin-right: 0px;
+    }
+    .QuizSeeAll p{
+        font-size: 14px;
+    }
+    
+    .Quizcourse {
+        width: 95%;
+    }
+    .Quizcourse p{
+        width: 30%;
+    }
+    .Quizline{
+        width: 95%;
+    }
+    .Quizbtn{
+        gap: 10px;
+    }
+
+}

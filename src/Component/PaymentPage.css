@@ -1,0 +1,96 @@
+.PaymentContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.PaymentRightSide{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Paymentheader{
+    width: 90%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+.Paymentheader button{
+    display: none;
+    
+}
+.Paymentheader h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.Paymentheader p{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #00000078;
+}
+.PaymentBtn{
+    width: 90%;
+    height: 60px;
+    text-align: left;
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-left: 50px;
+
+}
+.paystack, .transfer{
+    padding: 0px 100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.paystack{
+    background-color: #5852FE;
+    color: white;
+}
+.transfer{
+    background-color: #D9D9D9;
+}
+
+@media screen and (max-width:950px) {
+    .Paymentheader{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Paymentheader button{
+        display: flex;
+        font-size: 20px;
+        border: none;
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+    .Paymentheader h1{
+        font-size: 23px;
+    }
+    .Paymentheader p{
+        width: 80%;
+        font-size: 13px;
+    }
+    .PaymentBtn{
+        margin-left: 0px;
+        height: 200px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .paystack, .transfer{
+    padding: 25px 80px;
+        
+    }    
+  
+}
