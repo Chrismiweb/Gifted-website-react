@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Gifted-website-react/static/css/main.a7910293.css",
+    "main.js": "/Gifted-website-react/static/js/main.f9a06d79.js",
+    "static/js/787.7a1c0e17.chunk.js": "/Gifted-website-react/static/js/787.7a1c0e17.chunk.js",
+    "static/media/chrismi.jpeg": "/Gifted-website-react/static/media/chrismi.aa931ea078303ee00535.jpeg",
+    "static/media/herbs.png": "/Gifted-website-react/static/media/herbs.dfb442bc2819814fe68a.png",
+    "static/media/africa.png": "/Gifted-website-react/static/media/africa.41d7a5c80dd4cbe02c02.png",
+    "static/media/skincare.png": "/Gifted-website-react/static/media/skincare.88f077bfb63b34054e0e.png",
+    "static/media/pageman.png": "/Gifted-website-react/static/media/pageman.f428d46788de1dccc517.png",
+    "static/media/UXdesign.png": "/Gifted-website-react/static/media/UXdesign.71d2d3cc3910f6f8941b.png",
+    "static/media/frontend.png": "/Gifted-website-react/static/media/frontend.fd3bea9bfeae623dfa3b.png",
+    "static/media/crypto.png": "/Gifted-website-react/static/media/crypto.718e2d35dc7b966e28be.png",
+    "static/media/backend.png": "/Gifted-website-react/static/media/backend.7a07307862762249d3d3.png",
+    "static/media/cup.png": "/Gifted-website-react/static/media/cup.25081cd37494acb57e97.png",
+    "static/media/card.png": "/Gifted-website-react/static/media/card.5b99b874084b9a001279.png",
+    "static/media/stepone.png": "/Gifted-website-react/static/media/stepone.eba3863efc0588e92176.png",
+    "static/media/steptwo.png": "/Gifted-website-react/static/media/steptwo.5126d1412f02945150e6.png",
+    "static/media/dashboard.png": "/Gifted-website-react/static/media/dashboard.cabd37e6a2ff4dee2636.png",
+    "static/media/man.png": "/Gifted-website-react/static/media/man.699265b7ccd21219b6d7.png",
+    "static/media/stepthree.png": "/Gifted-website-react/static/media/stepthree.0f3154fa59cd7fbd579b.png",
+    "static/media/about.png": "/Gifted-website-react/static/media/about.88dfdd53b936b6b82c9d.png",
+    "static/media/cancel.png": "/Gifted-website-react/static/media/cancel.4d5db52b82a6f22aa309.png",
+    "static/media/spin.png": "/Gifted-website-react/static/media/spin.045787f5c3edd1fa1f37.png",
+    "static/media/win.png": "/Gifted-website-react/static/media/win.72553b645a2fc705e012.png",
+    "static/media/logo.png": "/Gifted-website-react/static/media/logo.347cc529d26a8bf4d892.png",
+    "static/media/logo.svg": "/Gifted-website-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Gifted-website-react/index.html",
+    "main.a7910293.css.map": "/Gifted-website-react/static/css/main.a7910293.css.map",
+    "main.f9a06d79.js.map": "/Gifted-website-react/static/js/main.f9a06d79.js.map",
+    "787.7a1c0e17.chunk.js.map": "/Gifted-website-react/static/js/787.7a1c0e17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7910293.css",
+    "static/js/main.f9a06d79.js"
+  ]
+}
