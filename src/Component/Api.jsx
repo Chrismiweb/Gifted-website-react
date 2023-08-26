@@ -86,7 +86,7 @@
 
 
 import React, { useEffect, useState } from 'react'
-import './Api.css'
+import './Api.css';
 import chrismi from '../images/chrismi.jpeg'
 function Api() {
     const[githudDetails, setGithubDetails] = useState(null);

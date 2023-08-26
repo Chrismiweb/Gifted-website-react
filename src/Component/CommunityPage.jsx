@@ -111,7 +111,6 @@ function CommunityPage() {
                         <img src={earning} alt="" />
                     </div>
                     <p>Earning History</p>
-                    
                 </div>
             </Link>
 
